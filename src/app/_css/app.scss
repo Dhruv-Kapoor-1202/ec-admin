@@ -5,9 +5,8 @@
 
 :root {
   --base: 24px;
-  --font-body: 'Jost', sans-serif, system-ui;
-  --font-jost: 'Jost', sans-serif, system-ui;
-  --font-mono: 'Roboto Mono', monospace;
+  --font-body: 'Jost', sans-serif;
+  --font-jost: 'Jost', sans-serif;
 
   --gutter-h: 180px;
   --block-padding: 120px;
@@ -112,6 +111,7 @@ ol {
 
 a {
   color: var(--color-dark-500);
+  text-decoration: none;
 
   &:focus {
     opacity: .8;
